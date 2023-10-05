@@ -491,6 +491,14 @@ background-color: #404BBF;
     display: flex;
     gap: 16px;
   }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 584;
+  }
 
  
 
