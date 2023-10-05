@@ -505,9 +505,7 @@ background-color: #404BBF;
     border-radius: 4px;
     background: var(--DAIRY, #FCFCFC);
   }
-  .is-hidden {
-    display: none;
-  }
+  
   .form-button {
     display: inline-flex;
     padding: 16px 32px;
