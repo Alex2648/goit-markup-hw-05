@@ -503,7 +503,13 @@ background-color: #404BBF;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    opacity: 1;
+    visibility: visible;
     background: var(--DAIRY, #FCFCFC);
+  }
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
   }
   
   .form-button {
