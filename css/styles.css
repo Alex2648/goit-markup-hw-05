@@ -500,7 +500,10 @@ background-color: #404BBF;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  
+  .is-hidden {
+    display: none;
+  }
+
   .form {
     display: flex;
     flex-direction: column;
