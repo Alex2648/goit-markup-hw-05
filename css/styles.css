@@ -531,6 +531,12 @@ background-color: #404BBF;
     width: 408px;
     height: 584;
   }
+  .form-field {
+    display: flex;
+    width: 360px;
+    align-items: center;
+    gap: 8px;
+  }
 
  
 
