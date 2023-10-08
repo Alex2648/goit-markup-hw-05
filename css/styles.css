@@ -614,7 +614,7 @@ img {
   margin-bottom: 16px;
 }
 .windows {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .form-modal {
   display: flex;
@@ -649,10 +649,7 @@ img {
 .form-input:focus {
   border-color: #4d5ae5;
 }
-.form-input:focus .iconmann {
-  fill: #4d5ae5;
-}
-.iconmann:focus .form-input {
+.form-input:focus + .iconmann {
   fill: #4d5ae5;
 }
 .text_area-input {
