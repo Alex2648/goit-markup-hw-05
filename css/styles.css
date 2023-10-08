@@ -690,7 +690,7 @@ img {
   gap: 8px;
   margin-bottom: 24px;
 }
-.visually-hidden {
+.checkbox-modal-input {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -702,7 +702,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.visually-hidden:checked +.span-modal {
+.checkbox-modal-input:checked + .user-privacy .span-modal {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
