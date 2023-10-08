@@ -616,6 +616,9 @@ img {
 .windows {
   margin-bottom: 8px;
 }
+.windows_texta {
+  margin-bottom: 16px;
+}
 .form-modal {
   display: flex;
   flex-direction: column;
