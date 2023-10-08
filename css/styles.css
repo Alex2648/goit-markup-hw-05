@@ -535,7 +535,6 @@ img {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-
 }
 .iconmann:hover :focus {
   fill: #ffffff;
@@ -560,7 +559,7 @@ img {
   margin-bottom: 16px;
 }
 .windows {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .form-modal {
   display: flex;
@@ -595,8 +594,11 @@ img {
 .form-input:focus {
   border-color: #4d5ae5;
 }
-.form-input:focus .iconmann{
-  fill: #4D5AE5;
+.form-input:focus .iconmann {
+  fill: #4d5ae5;
+}
+.iconmann:focus .form-input {
+  fill: #4d5ae5;
 }
 .text_area-input {
   width: 360px;
@@ -613,9 +615,9 @@ img {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.text_area-input:focus{
-  border-color: #4D5AE5;
-  fill: #4D5AE5;
+.text_area-input:focus {
+  border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 .face-field {
   position: absolute;
@@ -631,6 +633,7 @@ img {
   width: 360px;
   align-items: center;
   gap: 8px;
+  margin-bottom: 24px;
 }
 .visually-hidden {
   position: absolute;
@@ -644,10 +647,10 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.visually-hidden:checked .span-modal{
+.visually-hidden:checked .span-modal {
   background-color: #404bbf;
   border: none;
-  fill:#F4F4FD;
+  fill: #f4f4fd;
 }
 .ghgh {
   font-size: 12px;
