@@ -703,7 +703,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.checkbox-modal-input:checked + .user-privacy .span-modal {
+.checkbox-modal-input:checked + .ghgh .span-modal {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
