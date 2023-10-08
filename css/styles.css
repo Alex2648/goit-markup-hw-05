@@ -559,7 +559,7 @@ img {
   margin-bottom: 16px;
 }
 .windows {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .form-modal {
   display: flex;
@@ -647,7 +647,8 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.visually-hidden:checked .span-modal {
+
+.span-modal:checked .visually-hidden {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
