@@ -614,6 +614,7 @@ img {
   margin-bottom: 16px;
 }
 .windows {
+  position: relative;
   margin-bottom: 8px;
 }
 .windows_texta {
