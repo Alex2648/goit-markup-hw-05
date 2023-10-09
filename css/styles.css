@@ -731,7 +731,8 @@ img {
   color: #4d5ae5;
 }
 .form-button {
-  display: block;
+  display: flex;
+  align-items: center;
   width: 169px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
