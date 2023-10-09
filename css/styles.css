@@ -589,7 +589,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 24px;
   width: 360px;
   
 }
