@@ -558,7 +558,7 @@ img {
   padding: 72px 24px 24px 24px;
 }
 .modal-close {
-  position: absolute;
+  position: relative;
   align-items: center;
   justify-content: center;
   top: 24px;
