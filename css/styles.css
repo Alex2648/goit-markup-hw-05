@@ -558,7 +558,7 @@ img {
   padding: 72px 24px 24px 24px;
 }
 .modal-close {
-  position: relative;
+  display: flex;
   align-items: center;
   justify-content: center;
   top: 24px;
@@ -566,7 +566,6 @@ img {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  display: flex;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
