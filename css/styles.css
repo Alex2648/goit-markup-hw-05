@@ -337,6 +337,11 @@ img {
 .ourpor {
   margin-bottom: 72px;
   text-align: center;
+  font-family: roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
 }
 .portfoliolist {
   display: flex;
