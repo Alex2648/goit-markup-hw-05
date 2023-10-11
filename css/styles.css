@@ -106,7 +106,7 @@ img {
 }
 .logo {
   margin-right: 76px;
-  color: #4d5ae5;
+  color: #404bbf;;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -114,6 +114,15 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.logo::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .span {
   color: #2e2f42;
@@ -210,6 +219,7 @@ img {
 .adven {
   padding: 120px 0;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
