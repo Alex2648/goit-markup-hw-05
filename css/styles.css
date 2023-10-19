@@ -44,7 +44,7 @@ address {
 .style {
   justify-content: space-between;
   align-items: center;
-  color: #404bbf;
+  
 }
 
 .curren::after {
@@ -87,6 +87,7 @@ address {
 .menu {
   display: flex;
   gap: 40px;
+  color: #404bbf;
 }
 .menuaddress {
   display: flex;
