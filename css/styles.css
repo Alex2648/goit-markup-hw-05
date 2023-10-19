@@ -41,9 +41,7 @@ address {
   margin: 0 auto;
 }
 
-
 .style {
-  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   color: #404bbf;
@@ -148,6 +146,7 @@ img {
 }
 
 .two {
+  flex-wrap: nowrap;
   display: flex;
   align-items: center;
   font-style: normal;
