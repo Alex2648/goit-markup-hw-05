@@ -41,7 +41,6 @@ address {
   margin: 0 auto;
 }
 .style {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
