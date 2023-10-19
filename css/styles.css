@@ -43,6 +43,7 @@ address {
 
 
 .style {
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   color: #404bbf;
