@@ -157,6 +157,7 @@ img {
 }
 .adres_mail {
   display: flex;
+  position: relative;
   padding: 24px 0;
   width: 153px;
   height: 24px;
