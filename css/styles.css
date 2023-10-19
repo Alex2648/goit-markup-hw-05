@@ -40,6 +40,10 @@ address {
   width: 1157;
   margin: 0 auto;
 }
+li {
+  display: block;
+  align-content: center;
+}
 .style {
   justify-content: space-between;
   align-items: center;
