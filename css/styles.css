@@ -1,5 +1,8 @@
 /** @format */
-
+*,
+::after, ::before{
+  box-sizing: border-box;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -35,13 +38,13 @@ address {
   font-style: normal;
 }
 .container {
-  display: flex;
-  align-items: center;
-  width: 1157;
+  width: 1158;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .style {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
