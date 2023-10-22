@@ -129,7 +129,6 @@ img {
 }
 .one {
   display: flex;
-  gap: 40px;
   position: relative;
   padding: 24px 0;
   font-weight: 500;
@@ -146,13 +145,7 @@ img {
 }
 
 .two {
-  flex-wrap: nowrap;
-  display: flex;
-  align-items: center;
   font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 .adres_mail {
   display: flex;
