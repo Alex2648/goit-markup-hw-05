@@ -495,8 +495,10 @@ address {
 }
 .sub-form {
   display: flex;
-  margin-left: 80px;
   gap: 24px;
+}
+.subscribe {
+  margin-left: 80px;
 }
 .sub-input {
   width: 264px;
