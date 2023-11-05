@@ -108,7 +108,7 @@ address {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.one::after {
+.curren::after {
   content: '';
   position: absolute;
   left: 0;
