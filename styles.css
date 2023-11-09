@@ -744,8 +744,9 @@ address {
   color: #4d5ae5;
 }
 .form-button {
-  display: block;
+  display: flex;
   min-width: 169px;
+  align-items: center;
   justify-content: center;
   width: 169px;
   height: 56px;
