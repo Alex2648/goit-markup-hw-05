@@ -616,6 +616,10 @@ address {
 .iconmann:hover :focus {
   fill: #ffffff;
 }
+.modal_icons-clouse:hover :focus {
+  fill: #ffffff;
+}
+
 
 .form-button {
   display: inline-flex;
