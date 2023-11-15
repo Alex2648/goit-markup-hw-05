@@ -731,7 +731,7 @@ address {
   color: #8e8f99;
 }
 .span-modal {
-  display: inline-flex;
+  display: flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
