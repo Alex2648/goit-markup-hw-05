@@ -598,7 +598,7 @@ address {
   transform: translateY(-50%);
 }
 .modal-close:hover ,
-.modal-close:focus  {
+.modal-close:focus .modal_icons-clouse {
   background-color: #404bbf;
   border: none;
   stroke: #ffffff;
