@@ -597,11 +597,11 @@ address {
   top: 50%;
   transform: translateY(-50%);
 }
-.modal-close:hover .modal_icons-clouse,
-.modal-close:focus .modal_icons-clouse {
+.modal-close:hover ,
+.modal-close:focus  {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  stroke: #ffffff;
 }
 .iconmann:hover {
   background-color: #404bbf;
