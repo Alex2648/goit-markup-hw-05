@@ -607,6 +607,9 @@ address {
   background-color: #404bbf;
   border: none;
 }
+.modal_icons-clouse:hover {
+  stroke: #ffffff;
+}
 .form-modal {
   display: flex;
   flex-direction: column;
