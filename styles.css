@@ -590,19 +590,6 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close:hover .iconmann,
-.modal-close:focus .iconmann {
-  background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
-}
-
-.form-modal {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: 360px;
-}
 .iconmann {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
@@ -610,6 +597,23 @@ address {
   top: 50%;
   transform: translateY(-50%);
 }
+.modal-close:hover .modal_icons-clouse,
+.modal-close:focus .modal_icons-clouse {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
+.iconmann:hover {
+  background-color: #404bbf;
+  border: none;
+}
+.form-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+}
+
 
 .form-button {
   display: inline-flex;
